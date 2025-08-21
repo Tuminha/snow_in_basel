@@ -21,7 +21,6 @@ def test():
 @app.route('/api/predict-snow', methods=['GET'])
 def predict_snow():
     try:
-        # Your existing code...
         return jsonify({
             "prediction": "test",
             "probability": 0.5,
