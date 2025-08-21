@@ -7,6 +7,24 @@ sdk: gradio
 sdk_version: 3.50.2
 app_file: app.py
 pinned: false
+tags:
+  - scikit-learn
+  - tabular-classification
+  - timeseries
+  - weather
+  - switzerland
+license: mit
+task_categories:
+  - tabular-classification
+metrics:
+  - accuracy
+  - recall
+  - precision
+  - roc-auc
+  - f1
+library_name: scikit-learn
+pipeline_tag: tabular-classification
+model_version: v0.1.0
 ---
 
 # 🌨️ Snow Predictor Basel - My First ML Model! 🚀
@@ -43,6 +61,12 @@ After training on **25 years of Basel weather data**, here's how well it perform
 - **🌡️ 22 weather features** - Temperature trends, precipitation patterns, seasonal indicators
 - **🛡️ High recall design** - Built to catch snow events rather than avoid false alarms
 - **📊 25 years of data** - Trained on comprehensive Basel weather history (2000-2025)
+
+## 📊 Data Source & License
+
+This model uses historical weather observations obtained via the **Meteostat API** for Basel (47.5584° N, 7.5733° E). 
+
+**Data License:** Meteostat data is provided under **CC BY-NC 4.0**. Please attribute Meteostat when using or redistributing derived outputs and do not redistribute raw datasets for commercial purposes. See [Meteostat's terms](https://dev.meteostat.net/terms.html) for details.
 
 ## 🏗️ How I Built This
 
